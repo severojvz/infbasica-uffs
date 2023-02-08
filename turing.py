@@ -55,21 +55,27 @@ while continuar == True:
     if opcao == 1:
         print("1 - Resumo")
         mensagem = resumo()
+
     elif opcao == 2:
         print("2 - Doutorado")
         mensagem = doutorado()
+
     elif opcao == 3:
         print("3 - Contribuições")
         mensagem = contribuicoes()
+
     elif opcao == 4:
         print("4 - Principais Artigos")
         mensagem = artigos()
+
     elif opcao == 5:
         print("5 - Citações")
         mensagem = citacoes()
+
     elif opcao == 6:
         mensagem = sair()
         continuar = False
+
     else:
         mensagem = erro()
 
